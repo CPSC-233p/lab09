@@ -51,7 +51,7 @@
           1. Define a method named `set_database_name` to meet the following requirements:  
                1. Take a database file name as a positional parameter and assign the value to the class variable.
                2. If the file already exists, do nothing (we want to preserve any data in the file for continued use.)
-               3. If the file does not exisit, connect to the `sqlite3` file and create the `contacts` table and the `phones` table using the proper SQL `CREATE TABLE` statement.  Use the same field names as those used in the Entity-Relationship diagram above.  Use integers for all the id's and text for all the other data.
+               3. If the file does not exist, connect to the `sqlite3` file and create the `contacts` table and the `phones` table using the proper SQL `CREATE TABLE` statement.  Use the same field names as those used in the Entity-Relationship diagram above.  Use integers for all the id's and text for all the other data.
           1. Define a method named `get_database_name` to meet the following requirements:
                1. Return the value of the class variable that stores the database name.
           1. Define a method named `add_contact` to meet the following requirements:
